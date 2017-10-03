@@ -1,0 +1,6 @@
+.DS_Store
+src_test/testApp
+src/RandomBase.hpp.gch
+src/Test_RandomBase.o
+src_test/Test_RandomBase.o
+src_test/Test_StringSample.o

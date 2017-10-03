@@ -1,0 +1,43 @@
+[==========] Running 16 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 10 tests from RandomBaseTest
+[ RUN      ] RandomBaseTest.GetRandomSizeFailure
+[       OK ] RandomBaseTest.GetRandomSizeFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetRandomUInt32Failure
+[       OK ] RandomBaseTest.GetRandomUInt32Failure (0 ms)
+[ RUN      ] RandomBaseTest.GetYesOrNoFailure
+[       OK ] RandomBaseTest.GetYesOrNoFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetRandomIntPosFailure
+[       OK ] RandomBaseTest.GetRandomIntPosFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetRandomIntFailure
+[       OK ] RandomBaseTest.GetRandomIntFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetUIntSequenceFailure
+[       OK ] RandomBaseTest.GetUIntSequenceFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetIntSequenceFailure
+[       OK ] RandomBaseTest.GetIntSequenceFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetRandomCharacterFailure
+[       OK ] RandomBaseTest.GetRandomCharacterFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetRandomCharacterUpperFailure
+[       OK ] RandomBaseTest.GetRandomCharacterUpperFailure (0 ms)
+[ RUN      ] RandomBaseTest.GetRandomCharacterLowerFailure
+[       OK ] RandomBaseTest.GetRandomCharacterLowerFailure (0 ms)
+[----------] 10 tests from RandomBaseTest (0 ms total)
+
+[----------] 6 tests from StringSampleTest
+[ RUN      ] StringSampleTest.GetRandomStringFailure
+[       OK ] StringSampleTest.GetRandomStringFailure (0 ms)
+[ RUN      ] StringSampleTest.GetRandomStringUpper
+[       OK ] StringSampleTest.GetRandomStringUpper (0 ms)
+[ RUN      ] StringSampleTest.GetRandomStringLower
+[       OK ] StringSampleTest.GetRandomStringLower (0 ms)
+[ RUN      ] StringSampleTest.GetRandomStringUpperVectorFailure
+[       OK ] StringSampleTest.GetRandomStringUpperVectorFailure (1 ms)
+[ RUN      ] StringSampleTest.GetRandomStringLowerVectorFailure
+[       OK ] StringSampleTest.GetRandomStringLowerVectorFailure (0 ms)
+[ RUN      ] StringSampleTest.GetRandomStringVectorFailure
+[       OK ] StringSampleTest.GetRandomStringVectorFailure (0 ms)
+[----------] 6 tests from StringSampleTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 2 test cases ran. (1 ms total)
+[  PASSED  ] 16 tests.
