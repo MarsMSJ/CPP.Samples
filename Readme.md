@@ -1,5 +1,5 @@
 
-#.NET Core 2.0 Samples Library
+CPP Samples Library
 
 This is a library containing code to help with generating samples for input into your algorithms and data structures.  The library was written in C++ (C++14.) In this code we use the arc4random as the base generator used to generate random numbers, number sequences, characters, and strings. For Windows and Linux platforms, mt19937 (Mersenne twister) is used. This is still a work in progress.
 
