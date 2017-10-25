@@ -61,7 +61,7 @@ The following test are include:
 
 #### RandomBase 
 - Test for all functions
-#### StringSaple
+#### StringSample
 - Test for all functions
 
 I provided the output of the unit test in the file *testAppOutput.txt.* 
