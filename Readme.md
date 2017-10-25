@@ -5,7 +5,7 @@ This is a library containing code to help with generating samples for input into
 
 ## Getting Started
 
-### Prerequisities
+### Prerequisites
 
 In order to build and run this code you'll need a *C++ compiler compatible with C++14.* To run the test you'll need clone and build *GoogleTest* Github project on your platform.
 
