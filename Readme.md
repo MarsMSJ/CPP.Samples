@@ -10,9 +10,9 @@ This is a library containing code to help with generating samples for input into
 In order to build and run this code you'll need a *C++ compiler compatible with C++14.* To run the test you'll need clone and build *GoogleTest* Github project on your platform.
 
 
-* [GNU Compiler] (https://gcc.gnu.org)  I used GCC 7.2.0 installed with homebrew on *MacOS High Sierra*
-* [Homebrew] (https://brew.sh) Highly recommend *Homebrew* if you're using *MacOS.* It's awesome!
-* [Google Test] (https://github.com/google/googletest) I used *Google Test* for unit testing.
+* [GNU Compiler](https://gcc.gnu.org)  I used GCC 7.2.0 on *MacOS High Sierra*
+* [Homebrew](https://brew.sh) Highly recommend *Homebrew* if you're using *MacOS.* It's awesome!
+* [Google Test](https://github.com/google/googletest) I used *Google Test* for unit testing.
 
 ### Installing
 
