@@ -24,14 +24,14 @@ You will need to clone the project directory to your workstation.
 git clone https://github.com/MarsMSJ/CPP.Samples.git
 ```
 
-If you want to run the unit test, you'll also need to clone and build the *GoogleTest* source. I highly recommend building the code as library. I created a directory named *library* and built the source to a library. 
+If you want to run the unit test, you'll also need to clone and build the *GoogleTest* source. I highly recommend building the code as library. I created a directory named *library* and built the source this folder. 
 
 First clone the *GoogleTest* repository.
 ```
 git clone https://github.com/google/googletest.git
 ```
 
-First go to the directory and make a directory called (wait for it) *library.* Go to this directory.
+Go to the directory and make a directory called (wait for it) *library.* Go to this directory.
 
 ```
 cd googletest/googletest
@@ -45,9 +45,9 @@ Now build the library
 g++-7 -isystem ../include -I.. -pthread -c ../src/gtest-all.cc 
 ar -rv libgtest.a gtest-all.o
 ```
-Now build the test
+Go to the test directory in the location you cloned this repository to and build the test.
 ```
-g++-7 -isystem <MyGoogleTestDirPath>/googletest/googletest/include -pthread Test_RandomBase.cpp Test_StringSample.cpp Test_main.cpp <MyGoogleTestDirPath>/googletest/googletest/library/libgtest.a -o testApp 
+g++-7 -isystem <MyGoogleTestDirPath>/googletest/googletest/include -pthread *.cpp <MyGoogleTestDirPath>/googletest/googletest/library/libgtest.a -o testApp 
 ```
 
 Run the test.
